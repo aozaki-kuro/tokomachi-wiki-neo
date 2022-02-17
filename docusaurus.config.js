@@ -78,6 +78,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      // metadata
       metadata: [
         {
           name: 'twitter:card',
@@ -121,6 +122,7 @@ const config = {
         },
       ],
 
+      // navbar
       navbar: {
         title: 'Tokomachi Wiki',
         logo: {
@@ -142,6 +144,8 @@ const config = {
           },
         ],
       },
+
+      // footer
       footer: {
         style: 'dark',
         links: [
@@ -190,11 +194,36 @@ const config = {
                 label: 'Inui Channel',
                 href: 'https://www.youtube.com/channel/UCXRlIK3Cw_TJIQC5kSJJQMg',
               },
+              {
+                label: 'Tokomachi Radio Playlist',
+                href: 'https://www.youtube.com/playlist?list=PLRGzS-dvI7ZyOXpMyICfMY03vMsuxbL3h',
+              },
             ],
           },
         ],
-        copyright: `<img src="/img/project_stargazer.svg" /><br/>2021-${new Date().getFullYear()} Project Stargazer<br />CC BY-NC-SA 4.0<br />Built with Docusaurus`,
+        copyright: `<img src="/img/android-chrome-192x192.png" width="60rem" /><br/>2021-${new Date().getFullYear()} Project Stargazer<br />CC BY-NC-SA 4.0<br />Built with Docusaurus`,
       },
+
+      // dark mode toggle
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+        switchConfig: {
+          darkIcon: '\u2604',
+          darkIconStyle: {
+            marginLeft: '2px',
+          },
+          // Unicode icons such as '\u2600' will work
+          // Unicode with 5 chars require brackets: '\u{1F602}'
+          lightIcon: '\u{1F379}',
+          lightIconStyle: {
+            marginLeft: '1px',
+          },
+        },
+      },
+
+      // plugins
       algolia: {
         // The application ID provided by Algolia
         appId: 'MWDE3H8IGO',
