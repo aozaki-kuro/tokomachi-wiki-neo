@@ -58,7 +58,7 @@ const config = {
           {
             tagName: 'link',
             rel: 'manifest',
-            href: '/site.webmanifest', // your PWA manifest
+            href: '/manifest.json', // your PWA manifest
           },
           {
             tagName: 'meta',
@@ -68,6 +68,14 @@ const config = {
         ],
       },
     ],
+  ],
+
+  scripts: [
+    {
+      defer: true,
+      src: 'https://beacon.suisei.cc/app.js',
+      'data-domain': 'toko.suisei.cc',
+    },
   ],
 
   themeConfig:
@@ -111,14 +119,11 @@ const config = {
           content: '/img/android-chrome-192x192.png',
         },
         {
-          rel: 'manifest',
-          href: '/manifest.webmanifest',
-        },
-        {
           name: 'theme-color',
           content: '#9d3757',
         },
       ],
+
       navbar: {
         title: 'Tokomachi Wiki',
         logo: {
@@ -212,6 +217,10 @@ const config = {
         searchParameters: {},
 
         //... other Algolia params
+      },
+      sitemap: {
+        changefreq: 'weekly',
+        priority: 0.5,
       },
       prism: {
         theme: lightCodeTheme,
