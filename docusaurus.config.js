@@ -6,15 +6,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Tokomachi Wiki',
+  //icon: '/img/android-chrome-192x192.png',
+  tagline: 'Treasure every moment',
+  url: 'https://toko.suisei.cc',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'aozaki-kuro', // Usually your GitHub org/user name.
+  projectName: 'tokomachi-wiki-neo', // Usually your repo name.
 
   presets: [
     [
@@ -24,13 +25,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/aozaki-kuro/tokomachi-wiki-neo/edit/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/aozaki-kuro/tokomachi-wiki-neo/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -73,6 +73,52 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {
+          name: 'twitter:card',
+          content: '/img/android-chrome-192x192.png'
+        },
+        {
+          name: 'twitter:site',
+          content: 'Tokomachi Wiki | Treasure every moment',
+        },
+        {
+          name: 'twitter:image',
+          content: '/img/android-chrome-192x192.png',
+        },
+        {
+          name: 'twitter:description',
+          content: 'This is a Wikipedia-like site to record Tokomachi activities and details.',
+        },
+        {
+          property: 'og:type',
+          content: 'article',
+        },
+        {
+          property: 'og:title',
+          content: 'Tokomachi Wiki | Treasure every moment',
+        },
+        {
+          property: 'og:site_name',
+          content: 'Tokomachi Wiki',
+        },
+        {
+          property: 'og:url',
+          content: 'https://toko.suisei.cc/',
+        },
+        {
+          property: 'og:image',
+          content: '/img/android-chrome-192x192.png',
+        },
+        {
+          rel: 'manifest',
+          href: '/manifest.webmanifest',
+        },
+        {
+          name: 'theme-color',
+          content: '#9d3757',
+        },
+      ],
       navbar: {
         title: 'Tokomachi Wiki',
         logo: {
@@ -88,7 +134,7 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/aozaki-kuro/tokomachi-wiki-neo/',
             label: 'GitHub',
             position: 'right',
           },
@@ -150,21 +196,21 @@ const config = {
       algolia: {
         // The application ID provided by Algolia
         appId: 'MWDE3H8IGO',
-  
+
         // Public API key: it is safe to commit it
         apiKey: '089020613b342f8bc210b777ec8c33d3',
-  
+
         indexName: 'main',
-  
+
         // Optional: see doc section below
         contextualSearch: true,
-  
+
         // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
         //externalUrlRegex: '',
-  
+
         // Optional: Algolia search parameters
         searchParameters: {},
-  
+
         //... other Algolia params
       },
       prism: {
