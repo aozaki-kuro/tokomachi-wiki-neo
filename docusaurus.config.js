@@ -23,6 +23,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/aozaki-kuro/tokomachi-wiki-neo/edit/master/',
@@ -129,7 +130,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'index',
             position: 'left',
             label: 'Main',
           },
@@ -149,50 +150,50 @@ const config = {
             items: [
               {
                 label: '2019',
-                to: '/docs/timeline/2019',
+                to: '/timeline/2019',
               },
               {
                 label: '2020',
-                to: '/docs/timeline/2020',
+                to: '/timeline/2020',
               },
               {
                 label: '2021',
-                to: '/docs/timeline/2021',
+                to: '/timeline/2021',
+              },
+              {
+                label: '2022 (WIP)',
+                to: '/timeline/2022',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Topics',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Music & Lives',
+                href: '/topics/music_list',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Tokomachi Radio',
+                href: '/radio/tokomachi_radio_s1',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Channels',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Suisei Channel',
+                href: 'https://www.youtube.com/channel/UC5CwaMl1eIgY8h02uZw7u8A',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Inui Channel',
+                href: 'https://www.youtube.com/channel/UCXRlIK3Cw_TJIQC5kSJJQMg',
               },
             ],
           },
         ],
-        copyright: `Project Stargazer, CC-BY-NC 4.0, ${new Date().getFullYear()} . Built with Docusaurus.`,
+        copyright: `<img src="/img/project_stargazer.svg" /><br/>2021-${new Date().getFullYear()} Project Stargazer<br />CC BY-NC-SA 4.0<br />Built with Docusaurus`,
       },
       algolia: {
         // The application ID provided by Algolia
