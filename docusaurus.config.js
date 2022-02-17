@@ -39,6 +39,37 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-pwa',
+      {
+        debug: true,
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString',
+        ],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: '/img/android-chrome-192x192.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/site.webmanifest', // your PWA manifest
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: '#9d3757',
+          },
+        ],
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -55,7 +86,7 @@ const config = {
             position: 'left',
             label: 'Main',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -115,6 +146,26 @@ const config = {
           },
         ],
         copyright: `Project Stargazer, CC-BY-NC 4.0, ${new Date().getFullYear()} . Built with Docusaurus.`,
+      },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'MWDE3H8IGO',
+  
+        // Public API key: it is safe to commit it
+        apiKey: '089020613b342f8bc210b777ec8c33d3',
+  
+        indexName: 'main',
+  
+        // Optional: see doc section below
+        contextualSearch: true,
+  
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        //externalUrlRegex: '',
+  
+        // Optional: Algolia search parameters
+        searchParameters: {},
+  
+        //... other Algolia params
       },
       prism: {
         theme: lightCodeTheme,
