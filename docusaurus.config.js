@@ -23,6 +23,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          // Switch /docs/ to root
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
@@ -206,7 +207,7 @@ const config = {
 
       // dark mode toggle
       colorMode: {
-        defaultMode: 'light',
+        //defaultMode: 'light',
         disableSwitch: false,
         respectPrefersColorScheme: true,
         switchConfig: {
