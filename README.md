@@ -1,41 +1,30 @@
-# Website
+# Introduction
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+<div align="center">
+  <br />
+  <img src="/docs/.vuepress/public/cover.png" alt="tokomachi-wiki" width="150rem" height="150rem" />
+  <h3><a href="/">Tokomachi Wiki</a></h3>
+  <p><em>The comet and the Stargazing Cerberus.</em></p>
 
-### Installation
+  <img style="display: inline-block;" src="https://img.shields.io/badge/VuePress-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D" alt="VuePress" />
+  <img style="display: inline-block;" src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+  <img style="display: inline-block;" src="https://img.suisei.cc/badge/Project_Stargazer.svg" alt="Project Stargazer" />
+</div>
 
-```
-$ yarn
-```
+## What is this?
 
-### Local Development
+This is a Wikipedia-like site to record Tokomachi's activities and details.
 
-```
-$ yarn start
-```
+## Contact
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+If there's anything missing or improperly translated, you can
 
-### Build
+- Open an issue on [Github](https://github.com/aozaki-kuro/suisei-toko-history/issues/new)
+- Create a Pull Request on [Github](https://github.com/aozaki-kuro/suisei-toko-history)
+- Or even send an anonymous [Marshmallow](https://marshmallow-qa.com/aozaki__)
 
-```
-$ yarn build
-```
+## Support
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+If you found the project helpful, please consider buy me a coffee or support the server!
 
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+<a href='https://ko-fi.com/F1F46CGFC' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
