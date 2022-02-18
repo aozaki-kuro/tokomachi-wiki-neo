@@ -9,9 +9,11 @@ function formattedTime(sec) {
   const h = Math.floor(sec / 60)
   // second
   const s = sec - h * 60
-  // pad second to 2 digits
+  // pad second and minute to 2 digits
   const ss = String(s).padStart(2, '0')
-  return h + ':' + ss
+  const hh = String(h).padStart(2, '0')
+  // output
+  return hh + ':' + ss
 }
 
 // A normal way to do it.
@@ -20,6 +22,7 @@ function YTLink(props) {
   const Id = props.Id
   const Time = Number(props.Time)
   let Des = props.Des
+  // See if 'Des' is undefined
   if (Des == undefined || Des == '') {
     Des = null
   } else {
