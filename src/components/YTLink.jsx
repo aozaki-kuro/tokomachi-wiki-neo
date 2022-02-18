@@ -1,6 +1,7 @@
 // This is needed for any .jsx file
 // JSX allows you to use HTML tags in JavaScript
 import React from 'react'
+import Link from '@docusaurus/Link'
 
 // Give a **number**, return mm:ss
 function formattedTime(sec) {
@@ -28,10 +29,10 @@ function YTLink(props) {
   const text = formattedTime(Time)
   // Unlike Vue, in React you do NOT use :key=val but key={val}
   return (
-    <a href={url} target="_blank" rel="noopener noreferer">
+    <Link to={url}>
       <i className="fa-solid fa-stopwatch" /> <code>{text}</code>
       {Des}
-    </a>
+    </Link>
   )
 }
 
