@@ -18,11 +18,11 @@ function YTLink(props) {
   // Pick the items
   const Id = props.Id
   const Time = Number(props.Time)
-  const Des = props.Des
+  let Des = props.Des
   if (Des == undefined || Des == '') {
-    var Des1 = null
+    Des = null
   } else {
-    var Des1 = '\xa0' + props.Des
+    Des = '\xa0' + props.Des
   }
   const url = `https://youtube.com/watch?v=${Id}&t=${Time}s`
   const text = formattedTime(Time)
@@ -30,7 +30,7 @@ function YTLink(props) {
   return (
     <a href={url} target="_blank" rel="noopener noreferer">
       <i className="fa-solid fa-stopwatch" /> <code>{text}</code>
-      {Des1}
+      {Des}
     </a>
   )
 }
