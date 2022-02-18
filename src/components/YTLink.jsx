@@ -3,38 +3,32 @@
 import React from 'react'
 import Link from '@docusaurus/Link'
 
-// Give a **number**, return mm:ss
-function formattedTime(sec) {
-  // minute
-  const h = Math.floor(sec / 60)
-  // second
-  const s = sec - h * 60
-  // pad second and minute to 2 digits
-  const ss = String(s).padStart(2, '0')
-  const hh = String(h).padStart(2, '0')
-  // output
-  return hh + ':' + ss
+function parse_raw_time_to_seconds(raw) {
+  let raw_array = raw.split(':')
+  let elements_to_fill = 3 - raw_array.length
+  let hhmmss = [...Array(elements_to_fill).fill('0').flat(), ...raw_array]
+  let [hh, mm, ss] = hhmmss.map(i => parseInt(i))
+  return hh * 3600 + mm * 60 + ss
 }
 
 // A normal way to do it.
 function YTLink(props) {
   // Pick the items
   const Id = props.Id
-  const Time = Number(props.Time)
-  let Des = props.Des
+  const Time = parse_raw_time_to_seconds(props.Time)
   // See if 'Des' is undefined
-  if (Des == undefined || Des == '') {
-    Des = null
-  } else {
-    Des = '\xa0' + props.Des
+  let desc = props.Desc || ''
+  if (desc.length > 0) {
+    desc = '\xa0' + desc
   }
+  // Define output text
   const url = `https://youtube.com/watch?v=${Id}&t=${Time}s`
-  const text = formattedTime(Time)
+  const text = `${props.Time}`
   // Unlike Vue, in React you do NOT use :key=val but key={val}
   return (
     <Link to={url}>
       <i className="fa-solid fa-stopwatch" /> <code>{text}</code>
-      {Des}
+      {desc}
     </Link>
   )
 }

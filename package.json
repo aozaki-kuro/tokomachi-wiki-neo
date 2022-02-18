@@ -12,7 +12,7 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "format": "prettier '*.js' '*.json' '*.md' 'docs/**/*.mdx' 'docs/**/*.json' 'blog/**/*.md' --write"
+    "format": "prettier '*.js' '*.json' '*.md' 'src/**/*.jsx' 'docs/**/*.mdx' 'docs/**/*.json' 'blog/**/*.md' --write"
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-beta.15",

@@ -5,9 +5,9 @@
  */
 
 /* You can override the default Infima variables here. */
-@import "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/fontawesome.min.css";
-@import "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/brands.min.css";
-@import "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/solid.min.css";
+@import 'https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/fontawesome.min.css';
+@import 'https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/brands.min.css';
+@import 'https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/solid.min.css';
 
 :root {
   --ifm-color-primary: #7f203a;
@@ -21,7 +21,7 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-html[data-theme="dark"] {
+html[data-theme='dark'] {
   --ifm-color-primary: #4c95b9;
   --ifm-color-primary-dark: #4287a9;
   --ifm-color-primary-darker: #3e7f9f;
@@ -29,7 +29,7 @@ html[data-theme="dark"] {
   --ifm-color-primary-light: #5fa0c0;
   --ifm-color-primary-lighter: #68a6c4;
   --ifm-color-primary-lightest: #84b6cf;
-  
+
   --ifm-font-color-base: #adbac7;
   --ifm-toc-link-color: var(--ifm-font-color-base);
   --ifm-menu-color: var(--ifm-font-color-base);
@@ -42,7 +42,7 @@ html[data-theme="dark"] {
   padding: 0 var(--ifm-pre-padding);
 }
 
-html[data-theme="dark"] .docusaurus-highlight-code-line {
+html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
