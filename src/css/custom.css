@@ -33,6 +33,7 @@ html[data-theme='dark'] {
   --ifm-font-color-base: #adbac7;
   --ifm-toc-link-color: var(--ifm-font-color-base);
   --ifm-menu-color: var(--ifm-font-color-base);
+  --ifm-alert-foreground-color: var(--ifm-font-color-base);
 }
 
 .docusaurus-highlight-code-line {
