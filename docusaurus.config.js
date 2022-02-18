@@ -225,6 +225,7 @@ const config = {
       },
 
       // plugins
+      hideableSidebar: true,
       algolia: {
         // The application ID provided by Algolia
         appId: 'MWDE3H8IGO',
