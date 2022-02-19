@@ -23,7 +23,7 @@
   opacity: 0;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
-  animation-duration: 2300ms;
+  animation-duration: 2500ms;
   animation-delay: 100ms;
   animation-name: fadeIn;
 }
