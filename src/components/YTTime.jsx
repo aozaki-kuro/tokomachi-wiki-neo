@@ -22,7 +22,7 @@ function YTTime(props) {
     desc = '\xa0' + desc
   }
   // Define output text
-  const url = `https://youtube.com/watch?v=${Id}&t=${Time}s`
+  const url = `https://youtu.be/${Id}&t=${Time}s`
   const text = `${props.Time}`
   // Unlike Vue, in React you do NOT use :key=val but key={val}
   return (

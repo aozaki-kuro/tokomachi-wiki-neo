@@ -8,7 +8,7 @@ function tkmtintro() {
       <br />
       <span style={{ paddingRight: '5rem' }}>The comet in the night sky</span>
       <br />
-      <span style={{ paddingLeft: '10rem' }}>and the Stargazing Cerberus.</span>
+      <span style={{ paddingLeft: '5rem' }}>and the Stargazing Cerberus.</span>
     </p>
   )
 }
