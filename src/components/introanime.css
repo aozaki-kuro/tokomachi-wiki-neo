@@ -19,7 +19,23 @@
   width: 10rem;
   height: 10rem;
   align-self: center;
+  /** Animation */
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+  animation-delay: 100ms;
+  animation-name: fadeIn;
 }
+
+@keyframes fadeIn {
+    0% { 
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
 /** The Comet in the night sky */
 
@@ -27,6 +43,7 @@
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   animation-duration: 1s;
+  animation-delay: 100ms;
   animation-name: left-slide-in;
 }
 
@@ -41,6 +58,7 @@
 .IntroRight {
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
+  animation-delay: 100ms;
   animation-duration: 1s;
   animation-name: right-slide-in;
 }
