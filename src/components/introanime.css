@@ -23,28 +23,32 @@
   opacity: 0;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
-  animation-duration: 2s;
+  animation-duration: 2300ms;
   animation-delay: 100ms;
   animation-name: fadeIn;
 }
 
 @keyframes fadeIn {
-    0% { 
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  0% {
+    opacity: 0;
   }
+  100% {
+    opacity: 1;
+  }
+}
 
 /** The Comet in the night sky */
 
 .IntroLeft {
+  /** General*/
+  padding-right: 5rem;
+  /** Animation */
+  opacity: 0;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   animation-duration: 1s;
-  animation-delay: 100ms;
-  animation-name: left-slide-in;
+  animation-delay: 400ms;
+  animation-name: fadeIn, left-slide-in;
 }
 
 @keyframes left-slide-in {
@@ -56,11 +60,15 @@
 /** and the Stargazing Cerberus. */
 
 .IntroRight {
+  /** General*/
+  padding-left: 5rem;
+  /** Animation */
+  opacity: 0;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
-  animation-delay: 100ms;
   animation-duration: 1s;
-  animation-name: right-slide-in;
+  animation-delay: 400ms;
+  animation-name: fadeIn, right-slide-in;
 }
 
 @keyframes right-slide-in {
