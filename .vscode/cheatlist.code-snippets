@@ -37,12 +37,12 @@
   },
   "Details": {
     "prefix": "Details",
-    "body": "<details> <summary>$1</summary>\n$2\n</details>",
+    "body": "<details> <summary>$1</summary>\n\n$2\n\n</details>",
     "description": "More details"
   },
-  "YouTube Icon": {
-    "prefix": "YTIcon",
-    "body": "<Fa name={[ 'brands' , 'youtube' ]} />",
-    "description": "YouTube Icon"
+  "SNS Icon": {
+    "prefix": "SNSIcon",
+    "body": "<SNSIcon Name='$1' />",
+    "description": "SNS Icon"
   }
 }
