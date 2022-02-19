@@ -95,7 +95,8 @@ const config = {
         },
         {
           name: 'twitter:description',
-          content: 'This is a Wikipedia-like site to record Tokomachi activities and details.',
+          content:
+            'A Wikipedia-like site to record Tokomachi activities and details. This site is fan-made, unofficial and non-profit.',
         },
         {
           property: 'og:type',
