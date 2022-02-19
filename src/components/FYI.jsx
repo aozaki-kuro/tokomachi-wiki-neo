@@ -3,7 +3,7 @@ import Link from '@docusaurus/Link'
 
 function FYI(props) {
   const Topic = props.Topic
-  const Desc = props.Des
+  const Desc = props.Desc
   return (
     <p>
       <em>

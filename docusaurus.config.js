@@ -202,7 +202,7 @@ const config = {
             ],
           },
         ],
-        copyright: `<img src="/img/android-chrome-192x192.png" width="60rem" /><br/>2021-${new Date().getFullYear()} Project Stargazer<br />CC BY-NC-SA 4.0<br />Built with Docusaurus`,
+        copyright: `<img src="/img/project_stargazer.webp" width="256rem" /><br/>2021-${new Date().getFullYear()} Project Stargazer<br />CC BY-NC-SA 4.0<br />Built with Docusaurus`,
       },
 
       // dark mode toggle
