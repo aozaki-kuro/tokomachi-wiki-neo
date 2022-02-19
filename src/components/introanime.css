@@ -1,0 +1,52 @@
+/** Tokomachi Intro Animation */
+
+/** Main width and style */
+
+#box {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-align: center;
+  font-style: italic;
+  width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/** Intro Animation */
+
+.IntroImg {
+  width: 10rem;
+  height: 10rem;
+  align-self: center;
+}
+
+/** The Comet in the night sky */
+
+.IntroLeft {
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-name: left-slide-in;
+}
+
+@keyframes left-slide-in {
+  from {
+    margin-left: -30rem;
+  }
+}
+
+/** and the Stargazing Cerberus. */
+
+.IntroRight {
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-name: right-slide-in;
+}
+
+@keyframes right-slide-in {
+  from {
+    margin-right: -30rem;
+  }
+}

@@ -1,15 +1,22 @@
 import React from 'react'
 import IntroImg from '@site/docs/intro.png'
+import '@site/src/components/introanime.css'
 
 function tkmtintro() {
   return (
-    <p style={{ textAlign: 'center', fontStyle: 'italic' }}>
-      <img src={IntroImg} style={{ width: '10rem', height: '10rem' }} />
-      <br />
-      <span style={{ paddingRight: '5rem' }}>The comet in the night sky</span>
-      <br />
-      <span style={{ paddingLeft: '5rem' }}>and the Stargazing Cerberus.</span>
-    </p>
+    <div id="box">
+      <p>
+        <img className="IntroImg" src={IntroImg} />
+        <br />
+        <span className="IntroLeft" style={{ paddingRight: '5rem' }}>
+          The Comet in the night sky
+        </span>
+        <br />
+        <span className="IntroRight" style={{ paddingLeft: '5rem' }}>
+          and the Stargazing Cerberus.
+        </span>
+      </p>
+    </div>
   )
 }
 
