@@ -5,10 +5,9 @@
  */
 
 /* You can override the default Infima variables here. */
-
-@import "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/fontawesome.min.css";
-@import "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/brands.min.css";
-@import "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/solid.min.css";
+@import 'https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/fontawesome.min.css';
+@import 'https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/brands.min.css';
+@import 'https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/solid.min.css';
 
 :root {
   --ifm-color-primary: #7f203a;
@@ -22,7 +21,7 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-html[data-theme="dark"] {
+html[data-theme='dark'] {
   --ifm-color-primary: #4c95b9;
   --ifm-color-primary-dark: #4287a9;
   --ifm-color-primary-darker: #3e7f9f;
@@ -50,21 +49,19 @@ html[data-theme="dark"] {
   padding: 0 var(--ifm-pre-padding);
 }
 
-html[data-theme="dark"] .docusaurus-highlight-code-line {
+html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.video-responsive {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
+.navbar {
+  box-shadow: 0px 0.2px 1.1px rgba(0, 0, 0, 0.035), 0px 0.5px 3px rgba(0, 0, 0, 0.05),
+    0px 1.2px 7.2px rgba(0, 0, 0, 0.065), 0px 4px 24px rgba(0, 0, 0, 0.1);
 }
 
-.video-responsive iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
+.row{
+  margin-top: 16px;
+}
+
+.theme-doc-sidebar-menu {
+  margin-top: 16px;
 }
