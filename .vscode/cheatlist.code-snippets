@@ -17,22 +17,22 @@
   // }
   "YouTube Timestamp": {
     "prefix": "YTTime",
-    "body": "<YTTime Id='$3' Time='$1' Desc='$2' />",
+    "body": "<YTTime Id=\"$3\" Time=\"$1\" Desc=\"$2\" />",
     "description": "YouTube Timestamp"
   },
   "YouTube Link": {
     "prefix": "YTLink",
-    "body": "<YTLink Id='$1' />",
+    "body": "<YTLink Id=\"$1\" />",
     "description": "Original YouTube Stream"
   },
   "For more information (Topic)": {
     "prefix": "FYI",
-    "body": "<FYI Topic='$1' Desc='$2' />",
+    "body": "<FYI Topic=\"$1\" Desc=\"$2\" />",
     "description": "For more information (Topic)"
   },
   "Timeline Date": {
     "prefix": "Date",
-    "body": "<Date D='$1' />",
+    "body": "<Date D=\"$1\" />",
     "description": "Timeline Date (wo/ H level)"
   },
   "Details": {
@@ -42,7 +42,7 @@
   },
   "SNS Icon": {
     "prefix": "SNSIcon",
-    "body": "<SNSIcon Name='$1' />",
+    "body": "<SNSIcon Name=\"$1\" />",
     "description": "SNS Icon"
   }
 }
