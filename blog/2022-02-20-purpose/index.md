@@ -1,11 +1,12 @@
 ---
 slug: purpose
 title: Words from the Maintainer
+description: Explaining the purpose of the wiki site and the future plans.
 authors: [aozaki]
 tags: ['maintenance talk']
 ---
 
-## The purpose of the site
+## The Purpose
 
 This site was built specifically for recording and translating the contents related to Inui Toko + Hoshimachi Suisei, aka Tokomachi.
 
@@ -38,10 +39,13 @@ So far the site should be up-to-date and awaits for further activities, for now.
 
 import Time + Passion from 'Real-life'
 
+...
+
 function Upcoming_Contents() {
     return (
         // Content
         1. Keep the site up-to-date
+        2. Tweet translations
         // Code
         1. Make a fancy Homepage including a brief introduction
         2. Refactor the homepage icon & animation
@@ -58,7 +62,13 @@ function Existing_Contents() {
     )
 }
 
+...
+
 export default Tokomachi-Wiki
 ```
 
 Any proofreading, pull requests or code reviews on Github would be welcomed.
+
+## Navigation
+
+- [Click here to go back to Homepage](/)

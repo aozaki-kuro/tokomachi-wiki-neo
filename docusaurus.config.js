@@ -30,6 +30,9 @@ const config = {
           editUrl: 'https://github.com/aozaki-kuro/tokomachi-wiki-neo/edit/master/',
         },
         blog: {
+          blogTitle: 'Tokomachi Wiki Dev Blog',
+          blogDescription: 'This is the Dev blog of Tokomachi wiki. Not just a blog, but also a handbook :)',
+          postsPerPage: 'ALL',
           showReadingTime: true,
           // Please change this to your repo.
           editUrl: 'https://github.com/aozaki-kuro/tokomachi-wiki-neo/edit/master/',
