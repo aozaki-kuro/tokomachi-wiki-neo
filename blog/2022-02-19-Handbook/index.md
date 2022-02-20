@@ -73,6 +73,7 @@ import Date from '@site/src/components/date'
 
 Replace `${abc}` with actual contents.
 
+<!-- prettier-ignore -->
 ```md
 # Tokomachi in ${YEAR}
 <!-- h1 -->
