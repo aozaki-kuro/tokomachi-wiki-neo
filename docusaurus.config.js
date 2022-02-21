@@ -96,14 +96,16 @@ const config = {
           name: 'twitter:image',
           content: '/img/android-chrome-192x192.png',
         },
+        /**
         {
           name: 'twitter:description',
           content:
             'A Wikipedia-like site to record Tokomachi activities and details. This site is fan-made, unofficial and non-profit.',
         },
+        */
         {
           property: 'og:type',
-          content: 'article',
+          content: 'website',
         },
         {
           property: 'og:title',
@@ -113,10 +115,12 @@ const config = {
           property: 'og:site_name',
           content: 'Tokomachi Wiki',
         },
+        /**
         {
           property: 'og:url',
           content: 'https://toko.suisei.cc/',
         },
+        */
         {
           property: 'og:image',
           content: '/img/android-chrome-192x192.png',
