@@ -84,42 +84,44 @@ const config = {
     ({
       // metadata
       metadata: [
+        /**
         {
           name: 'twitter:card',
-          content: '/img/android-chrome-192x192.png',
+          content: 'https://img.suisei.cc/wiki/icon.png',
         },
-        {
-          name: 'twitter:site',
-          content: 'Tokomachi Wiki | Treasure every moment',
-        },
+        */
+        /**
+         {
+           name: 'twitter:site',
+           content: 'Tokomachi Wiki | Treasure every moment',
+         },
+         */
+        /**
         {
           name: 'twitter:image',
           content: '/img/android-chrome-192x192.png',
         },
+        */
+        /**
         {
           name: 'twitter:description',
           content:
             'A Wikipedia-like site to record Tokomachi activities and details. This site is fan-made, unofficial and non-profit.',
         },
+        */
         {
           property: 'og:type',
-          content: 'article',
+          content: 'website',
         },
+        /**
         {
           property: 'og:title',
           content: 'Tokomachi Wiki | Treasure every moment',
         },
+        */
         {
           property: 'og:site_name',
           content: 'Tokomachi Wiki',
-        },
-        {
-          property: 'og:url',
-          content: 'https://toko.suisei.cc/',
-        },
-        {
-          property: 'og:image',
-          content: '/img/android-chrome-192x192.png',
         },
         {
           name: 'theme-color',
