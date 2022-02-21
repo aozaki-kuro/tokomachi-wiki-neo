@@ -84,11 +84,10 @@ const config = {
     ({
       // metadata
       metadata: [
-        /** 
         {
           name: 'twitter:card',
-          content: '/img/android-chrome-192x192.png',
-        },*/
+          content: 'https://img.suisei.cc/wiki/icon.png',
+        },
         /**
         {
           name: 'twitter:site',
