@@ -1,7 +1,7 @@
 {
   "name": "tokomachi-wiki-neo",
   "version": "0.9.5",
-  "private": true,
+  "private": false,
   "scripts": {
     "docusaurus": "docusaurus",
     "dev": "docusaurus start",

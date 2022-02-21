@@ -12,7 +12,7 @@
 
 ## What is this?
 
-This is a Wikipedia-like site to record Tokomachi's activities and details.
+This is A Wiki-like site to record Tokomachi's activities and details.
 
 ## Contact
 

@@ -106,7 +106,7 @@ const config = {
         {
           name: 'twitter:description',
           content:
-            'A Wikipedia-like site to record Tokomachi activities and details. This site is fan-made, unofficial and non-profit.',
+            'A Wiki-like site to record Tokomachi activities and details. This site is fan-made, unofficial and non-profit.',
         },
         */
         {

@@ -1,7 +1,7 @@
 {
     "name": "Tokomachi Wiki",
     "short_name": "Tokomachi Wiki",
-    "description": "This is a Wikipedia-like site to record Tokomachi activities and details.",
+    "description": "This is A Wiki-like site to record Tokomachi activities and details.",
     "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#fff",
