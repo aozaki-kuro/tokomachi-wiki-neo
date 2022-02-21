@@ -84,11 +84,11 @@ const config = {
     ({
       // metadata
       metadata: [
+        
         {
           name: 'twitter:card',
           content: 'https://img.suisei.cc/wiki/icon.png',
         },
-        /**
         {
           name: 'twitter:site',
           content: 'Tokomachi Wiki | Treasure every moment',
@@ -97,7 +97,6 @@ const config = {
           name: 'twitter:image',
           content: '/img/android-chrome-192x192.png',
         },
-        */
         /**
         {
           name: 'twitter:description',
