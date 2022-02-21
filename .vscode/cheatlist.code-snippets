@@ -44,5 +44,10 @@
     "prefix": "SNSIcon",
     "body": "<SNSIcon Name=\"$1\" />",
     "description": "SNS Icon"
+  },
+  "Font Awesome": {
+    "prefix": "Fa",
+    "body": "<Fa name={[ '$1' , '$2' ]} />",
+    "description": "Font Awesome"
   }
 }
