@@ -64,7 +64,14 @@ const config = {
           {
             tagName: 'meta',
             name: 'theme-color',
+            media: '(prefers-color-scheme: light)',
             content: '#9d3757',
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            media: '(prefers-color-scheme: dark)',
+            content: '#007ab3',
           },
         ],
       },
@@ -84,56 +91,13 @@ const config = {
     ({
       // metadata
       metadata: [
-        /**
-        {
-          name: 'twitter:card',
-          content: 'https://img.suisei.cc/wiki/icon.png',
-        },
-        */
-        /**
-         {
-           name: 'twitter:site',
-           content: 'Tokomachi Wiki | Treasure every moment',
-         },
-         */
-        /**
-        {
-          name: 'twitter:image',
-          content: '/img/android-chrome-192x192.png',
-        },
-        */
-        /**
-        {
-          name: 'twitter:description',
-          content:
-            'A Wiki-like site to record Tokomachi activities and details. This site is fan-made, unofficial and non-profit.',
-        },
-        */
         {
           property: 'og:type',
           content: 'website',
         },
-        /**
-        {
-          property: 'og:title',
-          content: 'Tokomachi Wiki | Treasure every moment',
-        },
-        */
         {
           property: 'og:site_name',
           content: 'Tokomachi Wiki',
-        },
-        {
-          tagName: 'meta',
-          name: 'theme-color',
-          media: '(prefers-color-scheme: light)',
-          content: '#9d3757',
-        },
-        {
-          tagName: 'meta',
-          name: 'theme-color',
-          media: '(prefers-color-scheme: dark)',
-          content: '#007ab3',
         },
       ],
 
