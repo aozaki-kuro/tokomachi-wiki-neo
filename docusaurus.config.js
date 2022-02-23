@@ -122,13 +122,13 @@ const config = {
           tagName: 'meta',
           name: 'theme-color',
           media: '(prefers-color-scheme: light)',
-          content: '#9d3757',
+          content: '#ffffff',
         },
         {
           tagName: 'meta',
           name: 'theme-color',
           media: '(prefers-color-scheme: dark)',
-          content: '#4c95b9',
+          content: '#242526',
         },
       ],
 
