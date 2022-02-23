@@ -61,11 +61,6 @@ const config = {
             rel: 'manifest',
             href: '/manifest.json', // your PWA manifest
           },
-          {
-            tagName: 'meta',
-            name: 'theme-color',
-            content: '#9d3757',
-          },
         ],
       },
     ],
@@ -124,8 +119,16 @@ const config = {
           content: 'Tokomachi Wiki',
         },
         {
+          tagName: 'meta',
           name: 'theme-color',
+          media: '(prefers-color-scheme: light)',
           content: '#9d3757',
+        },
+        {
+          tagName: 'meta',
+          name: 'theme-color',
+          media: '(prefers-color-scheme: dark)',
+          content: '#4c95b9',
         },
       ],
 

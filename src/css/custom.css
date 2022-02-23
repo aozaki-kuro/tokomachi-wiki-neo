@@ -8,7 +8,8 @@
 @import 'https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/fontawesome.min.css';
 @import 'https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/brands.min.css';
 @import 'https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/solid.min.css';
-@import './navbar-shadow.css';
+@import '@site/src/css/navbar-shadow.css';
+@import '@site/src/css/scrollbar.css';
 
 :root {
   --ifm-color-primary: #7f203a;
