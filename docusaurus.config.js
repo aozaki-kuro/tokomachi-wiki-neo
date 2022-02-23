@@ -61,6 +61,11 @@ const config = {
             rel: 'manifest',
             href: '/manifest.json', // your PWA manifest
           },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: '#9d3757',
+          },
         ],
       },
     ],
