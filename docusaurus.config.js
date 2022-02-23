@@ -124,16 +124,8 @@ const config = {
           content: 'Tokomachi Wiki',
         },
         {
-          tagName: 'meta',
           name: 'theme-color',
-          media: '(prefers-color-scheme: light)',
-          content: '#ffffff',
-        },
-        {
-          tagName: 'meta',
-          name: 'theme-color',
-          media: '(prefers-color-scheme: dark)',
-          content: '#242526',
+          content: '#9d3757',
         },
       ],
 
