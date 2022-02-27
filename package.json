@@ -15,10 +15,10 @@
     "format": "prettier '*.js' '*.json' '*.md' 'src/**/*.jsx' 'docs/**/*.mdx' 'docs/**/*.json' 'blog/**/*.md' --write"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-beta.15",
+    "@docusaurus/core": "2.0.0-beta.16",
     "@docusaurus/plugin-pwa": "^2.0.0-beta.16",
     "@docusaurus/plugin-sitemap": "^2.0.0-beta.16",
-    "@docusaurus/preset-classic": "2.0.0-beta.15",
+    "@docusaurus/preset-classic": "2.0.0-beta.16",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.1.1",
     "prettier": "^2.5.1",
