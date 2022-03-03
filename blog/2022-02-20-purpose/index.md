@@ -8,9 +8,17 @@ tags: ['maintenance talk']
 
 ## The Purpose
 
-This site was built specifically for recording and translating the contents related to Inui Toko + Hoshimachi Suisei, aka Tokomachi.
+The Tokomachi Wiki is a fan-made site that has compiled the activities and events involving the unit <span style={{ color: "#e93320" , fontWeight: "bold" }}>Toko</span><span style={{ color: "#00b8ed" , fontWeight: "bold" }}>machi</span> (Inui Toko & Hoshimachi Suisei).
 
-This site is also a supplementary for the [History of Tokomachi (WIP)](/) clip.
+[Starting in 2019](/timeline/2019#the-birth-of-tokomachi-), they were good friends, who admired and respected each other. Over the next two years, the unit also proved itself with breathtakingly attractive live performances and showing their live activities.
+
+For Suisei, Toko's performance [influenced her in a way](/timeline/2019#turning-point-), that led to her choice of Tenkyuu for her solo performance on Non-Stop Story, 2019, which gained her tremendous popularity after the event.
+
+For Toko, Suisei [provided the motivation](/timeline/2021#small-revenge-) to do more musical work, such as new songs, solo events, and live performances. It was Toko that [first invited Suisei to her 1st solo live](/topics/toko_who_i_am), breaking the live event barrier between Hololive and Nijisanji.
+
+Both Suisei and Toko mentioned in Tokomachi Radio (Temp) Episode 14 that they [both want to learn English](/radio/episode/s2e14#new-challenges-in-2022) to communicate with the EN audiences and other EN Vtubers. But I found that was so little translated EN content about their interactions, so I decided to do it myself and help them to expand their territories.
+
+If you are interested in the activities and events of this brilliant music unit, please start from [<Fa name={[ 'solid' , 'feather-pointed' ]} /> Timeline: 2019](/timeline/2019)
 
 ### The Contents
 
