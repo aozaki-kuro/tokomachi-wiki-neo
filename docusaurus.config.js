@@ -31,7 +31,8 @@ const config = {
         },
         blog: {
           blogTitle: 'Tokomachi Wiki Dev Blog',
-          blogDescription: 'This is the Dev blog of Tokomachi wiki. Not just a blog, but also a handbook :)',
+          blogDescription:
+            'This is the Dev blog of Tokomachi wiki. Not just a blog, but also a handbook :)',
           postsPerPage: 'ALL',
           showReadingTime: true,
           // Please change this to your repo.
@@ -186,21 +187,9 @@ const config = {
 
       // dark mode toggle
       colorMode: {
-        //defaultMode: 'light',
+        defaultMode: 'light',
         disableSwitch: false,
         respectPrefersColorScheme: true,
-        switchConfig: {
-          darkIcon: '\u2604',
-          darkIconStyle: {
-            marginLeft: '2px',
-          },
-          // Unicode icons such as '\u2600' will work
-          // Unicode with 5 chars require brackets: '\u{1F602}'
-          lightIcon: '\u{1F379}',
-          lightIconStyle: {
-            marginLeft: '1px',
-          },
-        },
       },
 
       // plugins
