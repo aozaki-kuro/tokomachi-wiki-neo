@@ -1,5 +1,5 @@
 import React from 'react'
-import IntroImg from '@site/docs/intro.png'
+import IntroImg from '/static/img/intro.png'
 import '@site/src/css/introanime.css'
 
 function tkmtintro() {

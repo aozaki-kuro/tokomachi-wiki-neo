@@ -6,7 +6,7 @@ function YTLink(props) {
   const Url = `https://youtu.be/${Id}`
   return (
     <Link to={Url}>
-      <i class="fa-brands fa-youtube"></i> Original YouTube Stream
+      <i className="fa-brands fa-youtube"></i> Original YouTube Stream
     </Link>
   )
 }

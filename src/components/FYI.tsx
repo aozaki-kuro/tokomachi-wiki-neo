@@ -9,7 +9,7 @@ function FYI(props) {
       <em>
         For more information, please read{' '}
         <Link to={Desc}>
-          <i class="fa-solid fa-microphone-lines"></i> Topics: {Topic}
+          <i className="fa-solid fa-microphone-lines"></i> Topics: {Topic}
         </Link>
         .
       </em>
