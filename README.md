@@ -1,3 +1,5 @@
+<b>Project status: stale</b>
+
 # Introduction
 
 <div align="center">
