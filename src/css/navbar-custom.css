@@ -22,11 +22,11 @@ html[data-theme='dark'] .navbar {
 /** Navbar backdrop **/
 @media (min-width: 500px) {
   nav.navbar.navbar--fixed-top {
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px) saturate(1.8);
     background: rgba(255, 255, 255, 0.65);
   }
   html[data-theme='dark'] nav.navbar.navbar--fixed-top {
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px) saturate(1.5);
     background: rgba(33, 33, 34, 0.65);
   }
 }
