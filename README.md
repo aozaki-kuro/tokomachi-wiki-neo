@@ -1,10 +1,8 @@
-<b>Project status: stale</b>
-
 # Introduction
 
 <div align="center">
   <br />
-  <img src="/static/img/cover.webp" alt="tokomachi-wiki" width="200rem" height="200rem" />
+  <img src="/static/img/cover.webp" alt="tokomachi-wiki" width="300rem" height="300rem" />
   <h3><a href="/">Tokomachi Wiki</a></h3>
   <p><em>The comet and the Stargazing Cerberus.</em></p>
 
