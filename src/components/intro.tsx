@@ -1,6 +1,6 @@
 import React from 'react'
-import IntroSuisei from '/static/img/intro_suisei.png'
-import IntroToko from '/static/img/intro_toko.png'
+import IntroSuisei from '/static/img/intro_suisei.webp'
+import IntroToko from '/static/img/intro_toko.webp'
 import '@site/src/css/introanime.css'
 
 function tkmtintro() {
