@@ -2,7 +2,15 @@
   // This file is not used in compilation. It is here just for a nice editor experience.
   "extends": "@tsconfig/docusaurus/tsconfig.json",
   "compilerOptions": {
+    "lib": ["DOM", "ESNext"],
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "strict": true,
+    // Work around a type error in react-medium-image-zoom.
+    // https://github.com/rpearce/image-zoom/pull/303
+    "skipLibCheck": true,
+    "types": ["@types/jest"],
     "jsx": "react",
-    "baseUrl": "."
-  }
+  },
+  "exclude": ["src/sw.js"]
 }
