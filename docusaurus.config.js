@@ -17,24 +17,6 @@ const config = {
   organizationName: 'aozaki-kuro', // Usually your GitHub org/user name.
   projectName: 'tokomachi-wiki-neo', // Usually your repo name.
 
-  webpack: {
-    jsLoader: (isServer) => ({
-      loader: require.resolve('swc-loader'),
-      options: {
-        jsc: {
-          "parser": {
-            "syntax": "typescript",
-            "tsx": true
-          },
-          target: 'es2017',
-        },
-        module: {
-          type: isServer ? 'commonjs' : 'es6',
-        }
-      },
-    }),
-  },
-
   presets: [
     [
       'classic',
@@ -67,7 +49,7 @@ const config = {
     [
       '@docusaurus/plugin-pwa',
       {
-        debug: true,
+        debug: false,
         offlineModeActivationStrategies: ['appInstalled', 'standalone', 'queryString'],
         pwaHead: [
           {
