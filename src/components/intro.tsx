@@ -1,12 +1,14 @@
 import React from 'react'
-import IntroImg from '/static/img/intro.png'
+import IntroSuisei from '/static/img/intro_suisei.png'
+import IntroToko from '/static/img/intro_toko.png'
 import '@site/src/css/introanime.css'
 
 function tkmtintro() {
   return (
     <div id="box">
       <p>
-        <img className="IntroImg" src={IntroImg} alt="Tokomachi" />
+        <img className="IntroSuisei" src={IntroSuisei} alt="Suisei" />
+        <img className="IntroToko" src={IntroToko} alt="Toko" />
         <br />
         <span className="IntroLeft" style={{ paddingRight: '5rem' }}>
           The Comet in the night sky

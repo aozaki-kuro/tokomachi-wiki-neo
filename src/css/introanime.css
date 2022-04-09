@@ -3,6 +3,7 @@
 /** Main width and style */
 
 #box {
+  position: relative;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -15,17 +16,31 @@
 
 /** Intro Animation */
 
-.IntroImg {
-  width: 10rem;
-  height: 10rem;
+.IntroSuisei {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
   align-self: center;
   /** Animation */
   opacity: 0;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
-  animation-duration: 2500ms;
+  animation-duration: 1000ms;
   animation-delay: 100ms;
-  animation-name: fadeIn;
+  animation-name: fadeIn, right-slide-in;
+}
+
+.IntroToko {
+  width: 20rem;
+  height: 20rem;
+  align-self: center;
+  /** Animation */
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-duration: 1000ms;
+  animation-delay: 100ms;
+  animation-name: fadeIn, left-slide-in;
 }
 
 @keyframes fadeIn {
@@ -47,7 +62,7 @@
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   animation-duration: 1s;
-  animation-delay: 400ms;
+  animation-delay: 100ms;
   animation-name: fadeIn, left-slide-in;
 }
 
@@ -67,7 +82,7 @@
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   animation-duration: 1s;
-  animation-delay: 400ms;
+  animation-delay: 100ms;
   animation-name: fadeIn, right-slide-in;
 }
 
