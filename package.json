@@ -17,10 +17,10 @@
     "format": "prettier '*/**/*.+(js|jsx|ts|tsx|json|css|md|mdx)' --write"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-beta.18",
-    "@docusaurus/plugin-pwa": "^2.0.0-beta.18",
-    "@docusaurus/plugin-sitemap": "^2.0.0-beta.18",
-    "@docusaurus/preset-classic": "2.0.0-beta.18",
+    "@docusaurus/core": "0.0.0-4855",
+    "@docusaurus/plugin-pwa": "0.0.0-4855",
+    "@docusaurus/plugin-sitemap": "0.0.0-4855",
+    "@docusaurus/preset-classic": "0.0.0-4855",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.1.1",
     "prettier": "^2.6.2",
@@ -30,7 +30,7 @@
     "react-player": "^2.10.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "2.0.0-beta.18",
+    "@docusaurus/module-type-aliases": "0.0.0-4855",
     "@tsconfig/docusaurus": "^1.0.5",
     "typescript": "^4.6.3",
     "@types/jest": "^27.4.1"
