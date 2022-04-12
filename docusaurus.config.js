@@ -23,6 +23,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          breadcrumbs: false,
           // Switch /docs/ to root
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
