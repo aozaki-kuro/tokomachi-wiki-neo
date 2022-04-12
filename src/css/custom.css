@@ -56,7 +56,13 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+/** Changelog 格式 **/
 .changelog {
   font-family: monospace;
   font-size: 1rem;
+}
+
+/** 平滑滚动 **/
+html {
+	scroll-behavior: smooth;
 }
