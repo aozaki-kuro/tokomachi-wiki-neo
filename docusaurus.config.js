@@ -108,6 +108,8 @@ const config = {
         logo: {
           alt: 'Tokomachi Wiki',
           src: 'img/android-chrome-192x192.png',
+          width: 32,
+          height: 32,
         },
         items: [
           {
