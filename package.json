@@ -17,10 +17,10 @@
     "format": "prettier '*/**/*.+(js|jsx|ts|tsx|json|css|md|mdx)' --write"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-beta.18",
-    "@docusaurus/plugin-pwa": "2.0.0-beta.18",
-    "@docusaurus/plugin-sitemap": "2.0.0-beta.18",
-    "@docusaurus/preset-classic": "2.0.0-beta.18",
+    "@docusaurus/core": "2.0.0-beta.19",
+    "@docusaurus/plugin-pwa": "2.0.0-beta.19",
+    "@docusaurus/plugin-sitemap": "2.0.0-beta.19",
+    "@docusaurus/preset-classic": "2.0.0-beta.19",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.1.1",
     "prettier": "^2.6.2",
