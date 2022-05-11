@@ -10,7 +10,7 @@
     // https://github.com/rpearce/image-zoom/pull/303
     "skipLibCheck": true,
     "types": ["@types/jest"],
-    "jsx": "react",
+    "jsx": "react"
   },
   "exclude": ["src/sw.js"]
 }
