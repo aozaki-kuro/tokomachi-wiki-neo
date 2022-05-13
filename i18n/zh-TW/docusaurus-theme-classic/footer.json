@@ -1,0 +1,54 @@
+{
+  "link.title.Timeline": {
+    "message": "Timeline",
+    "description": "The title of the footer links column with title=Timeline in the footer"
+  },
+  "link.title.Topics": {
+    "message": "Topics",
+    "description": "The title of the footer links column with title=Topics in the footer"
+  },
+  "link.title.Channels": {
+    "message": "Channels",
+    "description": "The title of the footer links column with title=Channels in the footer"
+  },
+  "link.item.label.2019": {
+    "message": "2019",
+    "description": "The label of footer link with label=2019 linking to /timeline/2019"
+  },
+  "link.item.label.2020": {
+    "message": "2020",
+    "description": "The label of footer link with label=2020 linking to /timeline/2020"
+  },
+  "link.item.label.2021": {
+    "message": "2021",
+    "description": "The label of footer link with label=2021 linking to /timeline/2021"
+  },
+  "link.item.label.2022 (WIP)": {
+    "message": "2022 (WIP)",
+    "description": "The label of footer link with label=2022 (WIP) linking to /timeline/2022"
+  },
+  "link.item.label.Music & Lives": {
+    "message": "Music & Lives",
+    "description": "The label of footer link with label=Music & Lives linking to /topics/music_list"
+  },
+  "link.item.label.Tokomachi Radio": {
+    "message": "Tokomachi Radio",
+    "description": "The label of footer link with label=Tokomachi Radio linking to /radio/tokomachi_radio_s1"
+  },
+  "link.item.label.Suisei Channel": {
+    "message": "Suisei Channel",
+    "description": "The label of footer link with label=Suisei Channel linking to https://www.youtube.com/channel/UC5CwaMl1eIgY8h02uZw7u8A"
+  },
+  "link.item.label.Inui Channel": {
+    "message": "Inui Channel",
+    "description": "The label of footer link with label=Inui Channel linking to https://www.youtube.com/channel/UCXRlIK3Cw_TJIQC5kSJJQMg"
+  },
+  "link.item.label.Tokomachi Radio Playlist": {
+    "message": "Tokomachi Radio Playlist",
+    "description": "The label of footer link with label=Tokomachi Radio Playlist linking to https://www.youtube.com/playlist?list=PLRGzS-dvI7ZyOXpMyICfMY03vMsuxbL3h"
+  },
+  "copyright": {
+    "message": "<img src=\"/img/android-chrome-192x192.png\" width=\"64rem\" height=\"64rem\" alt=\"Tokomachi Wiki\" /><br/>2021-2022 Project Stargazer<br />CC BY-NC-SA 4.0<br />Built with Docusaurus",
+    "description": "The footer copyright"
+  }
+}

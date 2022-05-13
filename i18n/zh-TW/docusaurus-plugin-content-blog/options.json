@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Tokomachi Wiki Dev Blog",
+    "description": "The title for the blog used in SEO"
+  },
+  "description": {
+    "message": "This is the Dev blog of Tokomachi wiki. Not just a blog, but also a handbook :)",
+    "description": "The description for the blog used in SEO"
+  },
+  "sidebar.title": {
+    "message": "Recent posts",
+    "description": "The label for the left sidebar"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Tokomachi Wiki",
+    "description": "The title in the navbar"
+  },
+  "item.label.Main": {
+    "message": "Main",
+    "description": "Navbar item with label Main"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  }
+}
