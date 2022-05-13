@@ -17,6 +17,23 @@ const config = {
   organizationName: 'aozaki-kuro', // Usually your GitHub org/user name.
   projectName: 'tokomachi-wiki-neo', // Usually your repo name.
 
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'zh-TW', 'zh-CN'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-US',
+      },
+      // You can omit a locale (e.g. fr) if you don't need to override the defaults
+      'zh-TW': {
+        htmlLang: 'zh-TW',
+      },
+      'zh-CN': {
+        htmlLang: 'zh-CN',
+      }
+    },
+  },
+
   presets: [
     [
       'classic',
@@ -120,6 +137,10 @@ const config = {
             label: 'Main',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
           {
             href: 'https://github.com/aozaki-kuro/tokomachi-wiki-neo/',
             position: 'right',
