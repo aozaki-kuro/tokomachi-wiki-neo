@@ -23,10 +23,6 @@
     "message": "關閉",
     "description": "The ARIA label for close button of announcement bar"
   },
-  "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "回到頂部",
-    "description": "The ARIA label for the back to top button"
-  },
   "theme.blog.archive.title": {
     "message": "歷史文章",
     "description": "The page & hero title of the blog archive page"
@@ -34,6 +30,10 @@
   "theme.blog.archive.description": {
     "message": "歷史文章",
     "description": "The page & hero description of the blog archive page"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "回到頂部",
+    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.paginator.navAriaLabel": {
     "message": "部落格文章列表分頁導覽",
@@ -182,13 +182,13 @@
     "message": "本頁導覽",
     "description": "The label used by the button on the collapsible TOC component"
   },
-  "theme.blog.sidebar.navAriaLabel": {
-    "message": "最近部落格文章導覽",
-    "description": "The ARIA label for recent posts in the blog sidebar"
-  },
   "theme.tags.tagsListLabel": {
     "message": "標籤：",
     "description": "The label alongside a tag list"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "最近部落格文章導覽",
+    "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.CodeBlock.copied": {
     "message": "複製成功",
@@ -230,13 +230,6 @@
     "message": "展開側邊欄",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
-  "theme.SearchBar.seeAll": {
-    "message": "查看全部 {count} 個結果"
-  },
-  "theme.SearchBar.label": {
-    "message": "搜尋",
-    "description": "The ARIA label and placeholder for search button"
-  },
   "theme.SearchPage.documentsFound.plurals": {
     "message": "找到 {count} 份文件",
     "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
@@ -268,6 +261,13 @@
   "theme.SearchPage.fetchingNewResults": {
     "message": "正在取得新的搜尋結果...",
     "description": "The paragraph for fetching new search results"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "查看全部 {count} 個結果"
+  },
+  "theme.SearchBar.label": {
+    "message": "搜尋",
+    "description": "The ARIA label and placeholder for search button"
   },
   "theme.PwaReloadPopup.info": {
     "message": "有可用的新版本",
