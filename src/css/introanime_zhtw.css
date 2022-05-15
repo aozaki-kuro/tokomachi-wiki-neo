@@ -1,0 +1,123 @@
+/** Tokomachi Intro Animation */
+
+/** Main width and style */
+
+#box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-align: center;
+  font-style: italic;
+  width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/** Intro Animation */
+
+/** For Smartphone **/
+@media (max-width: 640px) {
+  .IntroSuisei {
+    position: absolute;
+    width: 16rem;
+    height: 12rem;
+    align-self: center;
+    /** Animation */
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    animation-name: fadeIn, right-slide-in;
+  }
+
+  .IntroToko {
+    width: 16rem;
+    height: 12rem;
+    align-self: center;
+    /** Animation */
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    animation-name: fadeIn, left-slide-in;
+  }
+}
+
+/** For Desktop **/
+
+@media (min-width: 640px) {
+  .IntroSuisei {
+    position: absolute;
+    width: 20rem;
+    height: 15rem;
+    align-self: center;
+    /** Animation */
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    animation-name: fadeIn, right-slide-in;
+  }
+
+  .IntroToko {
+    width: 20rem;
+    height: 15rem;
+    align-self: center;
+    /** Animation */
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    animation-name: fadeIn, left-slide-in;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/** The Comet in the night sky */
+
+.IntroLeft {
+  /** General*/
+  padding-right: 5rem;
+  /** Animation */
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-delay: 100ms;
+  animation-name: fadeIn, left-slide-in;
+}
+
+@keyframes left-slide-in {
+  from {
+    margin-left: -40rem;
+  }
+}
+
+/** and the Stargazing Cerberus. */
+
+.IntroRight {
+  /** General*/
+  padding-left: 5rem;
+  /** Animation */
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-delay: 100ms;
+  animation-name: fadeIn, right-slide-in;
+}
+
+@keyframes right-slide-in {
+  from {
+    margin-right: -40rem;
+  }
+}
