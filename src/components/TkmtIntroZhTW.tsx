@@ -7,8 +7,8 @@ function tkmtintro() {
   return (
     <div id="box">
       <p>
-        <img className="IntroSuisei" src={IntroSuisei} alt="Suisei" />
         <img className="IntroToko" src={IntroToko} alt="Toko" />
+        <img className="IntroSuisei" src={IntroSuisei} alt="Suisei" />
         <br />
         <span className="IntroLeft" style={{ paddingRight: '5rem' }}>
           The Comet in the night sky
