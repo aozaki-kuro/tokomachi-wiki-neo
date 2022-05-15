@@ -1,14 +1,14 @@
 {
   "link.title.Timeline": {
-    "message": "Timeline",
+    "message": "时间线",
     "description": "The title of the footer links column with title=Timeline in the footer"
   },
   "link.title.Topics": {
-    "message": "Topics",
+    "message": "主题",
     "description": "The title of the footer links column with title=Topics in the footer"
   },
   "link.title.Channels": {
-    "message": "Channels",
+    "message": "频道",
     "description": "The title of the footer links column with title=Channels in the footer"
   },
   "link.item.label.2019": {
@@ -28,11 +28,11 @@
     "description": "The label of footer link with label=2022 (WIP) linking to /timeline/2022"
   },
   "link.item.label.Music & Lives": {
-    "message": "Music & Lives",
+    "message": "音乐与演唱会",
     "description": "The label of footer link with label=Music & Lives linking to /topics/music_list"
   },
   "link.item.label.Tokomachi Radio": {
-    "message": "Tokomachi Radio",
+    "message": "星床电台",
     "description": "The label of footer link with label=Tokomachi Radio linking to /radio/tokomachi_radio_s1"
   },
   "link.item.label.Suisei Channel": {
@@ -44,7 +44,7 @@
     "description": "The label of footer link with label=Inui Channel linking to https://www.youtube.com/channel/UCXRlIK3Cw_TJIQC5kSJJQMg"
   },
   "link.item.label.Tokomachi Radio Playlist": {
-    "message": "Tokomachi Radio Playlist",
+    "message": "星床电台播放列表",
     "description": "The label of footer link with label=Tokomachi Radio Playlist linking to https://www.youtube.com/playlist?list=PLRGzS-dvI7ZyOXpMyICfMY03vMsuxbL3h"
   },
   "copyright": {

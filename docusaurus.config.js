@@ -19,7 +19,11 @@ const config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'zh-TW', 'zh-CN'],
+    locales: [
+      'en',
+      'zh-TW',
+      //'zh-CN'
+    ],
     localeConfigs: {
       en: {
         htmlLang: 'en-US',
@@ -27,10 +31,12 @@ const config = {
       // You can omit a locale (e.g. fr) if you don't need to override the defaults
       'zh-TW': {
         htmlLang: 'zh-TW',
+        label: '繁體中文 (zh-TW)',
       },
       'zh-CN': {
         htmlLang: 'zh-CN',
-      }
+        label: '简体中文',
+      },
     },
   },
 
