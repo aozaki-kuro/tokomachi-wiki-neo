@@ -48,7 +48,6 @@
 
 @media (min-width: 640px) {
   .IntroSuisei {
-    position: absolute;
     width: 20rem;
     height: 15rem;
     align-self: center;
@@ -61,6 +60,7 @@
   }
 
   .IntroToko {
+    position: absolute;
     width: 20rem;
     height: 15rem;
     align-self: center;
