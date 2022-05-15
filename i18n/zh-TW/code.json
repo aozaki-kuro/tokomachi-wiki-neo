@@ -280,5 +280,21 @@
   "theme.PwaReloadPopup.closeButtonAriaLabel": {
     "message": "關閉",
     "description": "The ARIA label for close button of PWA reload popup"
+  },
+  "FYI.tag": {
+    "message": "如需更多資訊，請閱讀",
+    "description": "Message for YT FYI"
+  },
+  "FYI.topic": {
+    "message": "主題：",
+    "description": "Topics"
+  },
+  "FYI.mark": {
+    "message": "。",
+    "description": "End Mark"
+  },
+  "YTLink.text": {
+    "message": "原始 YouTube 直播",
+    "description": "YouTube link text"
   }
 }
