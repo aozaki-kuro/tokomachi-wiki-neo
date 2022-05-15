@@ -19,7 +19,6 @@
 /** For Smartphone **/
 @media (max-width: 640px) {
   .IntroSuisei {
-    position: absolute;
     width: 16rem;
     height: 12rem;
     align-self: center;
@@ -32,6 +31,7 @@
   }
 
   .IntroToko {
+    position: absolute;
     width: 16rem;
     height: 12rem;
     align-self: center;
