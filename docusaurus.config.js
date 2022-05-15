@@ -31,7 +31,7 @@ const config = {
       // You can omit a locale (e.g. fr) if you don't need to override the defaults
       'zh-TW': {
         htmlLang: 'zh-TW',
-        label: '繁體中文 (zh-TW)',
+        label: '繁體中文',
       },
       'zh-CN': {
         htmlLang: 'zh-CN',
