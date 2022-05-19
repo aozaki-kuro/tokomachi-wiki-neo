@@ -12,7 +12,7 @@ function FYI(props) {
         For more information, please read
       </Translate>{' '}
       <Link to={Desc}>
-        <i className="fa-solid fa-microphone-lines"></i>
+        <i className="fa-solid fa-microphone-lines" />{' '}
         <Translate id="FYI.topic" description="Topics">
           Topics:
         </Translate>{' '}
