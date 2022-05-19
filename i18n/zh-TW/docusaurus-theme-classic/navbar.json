@@ -10,5 +10,17 @@
   "item.label.Blog": {
     "message": "部落格",
     "description": "Navbar item with label Blog"
+  },
+  "item.label.Support": {
+    "message": "支援",
+    "description": "Navbar item with label Support"
+  },
+  "item.label.Ko-Fi": {
+    "message": "Ko-Fi",
+    "description": "Navbar item with label Ko-Fi"
+  },
+  "item.label.Patreon": {
+    "message": "Patreon",
+    "description": "Navbar item with label Patreon"
   }
 }

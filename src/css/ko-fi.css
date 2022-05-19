@@ -1,0 +1,16 @@
+.header-kofi-link:hover {
+  opacity: 0.6;
+}
+
+.header-kofi-link::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url('/img/ko-fi.svg') no-repeat;
+}
+
+[data-theme='dark'] .header-kofi-link::before {
+  background: url('/img/ko-fi.svg') no-repeat;
+  filter: invert(100%);
+}

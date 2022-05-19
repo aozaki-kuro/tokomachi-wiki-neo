@@ -4,23 +4,23 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Timeline": {
-    "message": "时间线",
+    "message": "Timeline",
     "description": "The label for category Timeline in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Topics": {
-    "message": "主题",
+    "message": "Topics",
     "description": "The label for category Topics in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Tokomachi Radio": {
-    "message": "星床电台",
+    "message": "Tokomachi Radio",
     "description": "The label for category Tokomachi Radio in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Special Episodes": {
-    "message": "特别节目",
+    "message": "Special Episodes",
     "description": "The label for category Special Episodes in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Special": {
-    "message": "其他",
+    "message": "Special",
     "description": "The label for category Special in sidebar tutorialSidebar"
   }
 }

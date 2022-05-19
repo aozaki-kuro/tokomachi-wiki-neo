@@ -136,6 +136,7 @@ const config = {
           height: 32,
         },
         items: [
+          // Left
           {
             type: 'doc',
             docId: 'index',
@@ -143,6 +144,23 @@ const config = {
             label: 'Main',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
+
+          // Right
+          {
+            type: 'dropdown',
+            position: 'right',
+            label: 'Support',
+            items: [
+              {
+                label: 'Ko-Fi',
+                href: 'https://ko-fi.com/project_stargazer',
+              },
+              {
+                label: 'Patreon',
+                href: 'https://www.patreon.com/project_startgazer'
+              }
+            ]
+          },
           {
             type: 'localeDropdown',
             position: 'right',
