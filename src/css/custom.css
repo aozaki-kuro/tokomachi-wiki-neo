@@ -62,3 +62,8 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   font-family: monospace;
   font-size: 1rem;
 }
+
+/** Twitter Translation */
+.twitter-trans {
+  width: 35rem;
+}
