@@ -100,8 +100,8 @@ const config = {
           },
           {
             tagName: 'meta',
-            name: 'verify.bing.com',
-            content: 'verify.bing.com',
+            name: 'msvalidate.01',
+            content: 'B1F6F115CD6A2E3856CA5D9CEF57E6D0',
           },
         ],
       },
