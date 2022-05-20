@@ -68,3 +68,16 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 .twitter-trans {
   width: 35rem;
 }
+
+.credit-avatar-large {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 5rem;
+  margin-bottom: 1rem;
+  margin-top: 0.3rem;
+}
+
+.credit-avatar-small {
+  width: 8rem;
+  height: 8rem;
+}
