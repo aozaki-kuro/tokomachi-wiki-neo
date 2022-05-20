@@ -98,11 +98,6 @@ const config = {
             media: '(prefers-color-scheme: dark)',
             content: '#007ab3',
           },
-          {
-            tagName: 'meta',
-            name: 'msvalidate.01',
-            content: 'B1F6F115CD6A2E3856CA5D9CEF57E6D0',
-          },
         ],
       },
     ],
