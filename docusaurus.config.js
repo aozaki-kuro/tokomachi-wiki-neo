@@ -98,6 +98,11 @@ const config = {
             media: '(prefers-color-scheme: dark)',
             content: '#007ab3',
           },
+          {
+            tagName: 'meta',
+            name: 'verify.bing.com',
+            content: 'verify.bing.com',
+          },
         ],
       },
     ],
@@ -157,9 +162,9 @@ const config = {
               },
               {
                 label: 'Patreon',
-                href: 'https://www.patreon.com/project_startgazer'
-              }
-            ]
+                href: 'https://www.patreon.com/project_startgazer',
+              },
+            ],
           },
           {
             type: 'localeDropdown',
