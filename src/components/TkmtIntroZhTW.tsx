@@ -11,11 +11,11 @@ function tkmtintro() {
         <img className="IntroSuisei" src={IntroSuisei} alt="Suisei" />
         <br />
         <span className="IntroLeft" style={{ paddingRight: '5rem' }}>
-          The Comet in the night sky
+          在夜空中的彗星
         </span>
         <br />
         <span className="IntroRight" style={{ paddingLeft: '5rem' }}>
-          and the Stargazing Cerberus.
+          和在觀星的三頭犬
         </span>
       </p>
     </div>
