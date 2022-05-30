@@ -4,8 +4,7 @@ import Link from '@docusaurus/Link'
 import Translate from '@docusaurus/Translate'
 
 function YTLink(props) {
-  const Id = props.Id
-  const Url = `https://youtu.be/${Id}`
+  const Url = `https://youtu.be/${props.Id}`
   return (
     <Link to={Url}>
       <i className="fa-brands fa-youtube"></i>{' '}

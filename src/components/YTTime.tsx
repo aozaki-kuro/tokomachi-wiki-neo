@@ -14,7 +14,6 @@ function parse_raw_time_to_seconds(raw) {
 // A normal way to do it.
 function YTTime(props) {
   // Pick the items
-  const Id = props.Id
   const Time = parse_raw_time_to_seconds(props.Time)
   // See if 'Des' is undefined
   let desc = props.Desc || ''
@@ -22,7 +21,7 @@ function YTTime(props) {
     desc = '\xa0' + desc
   }
   // Define output text
-  const url = `https://youtu.be/${Id}&t=${Time}s`
+  const url = `https://youtu.be/${props.Id}&t=${Time}s`
   const text = `${props.Time}`
   // Unlike Vue, in React you do NOT use :key=val but key={val}
   return (
